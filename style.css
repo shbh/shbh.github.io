@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 63%;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 4px #d2d2d2;
+}
+.card .name {
+  color: white;
+  background: black;
+  text-transform: uppercase;
+  margin: 0px 0 2px 0;
+  padding: 0px 4px;
+  width: max-content;
+  font-size: 2.8rem;
+}
+.contactItem .card {
+  font-weight: 200;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+.col-1 {
+  float: left;
+  width: calc(1 / 12 * 100%);
+}
+
+.col-2 {
+  float: left;
+  width: calc(2 / 12 * 100%);
+}
+
+.col-3 {
+  float: left;
+  width: calc(3 / 12 * 100%);
+}
+
+.col-4 {
+  float: left;
+  width: calc(4 / 12 * 100%);
+}
+
+.col-5 {
+  float: left;
+  width: calc(5 / 12 * 100%);
+}
+
+.col-6 {
+  float: left;
+  width: calc(6 / 12 * 100%);
+}
+
+.col-7 {
+  float: left;
+  width: calc(7 / 12 * 100%);
+}
+
+.col-8 {
+  float: left;
+  width: calc(8 / 12 * 100%);
+}
+
+.col-9 {
+  float: left;
+  width: calc(9 / 12 * 100%);
+}
+
+.col-10 {
+  float: left;
+  width: calc(10 / 12 * 100%);
+}
+
+.col-11 {
+  float: left;
+  width: calc(11 / 12 * 100%);
+}
+
+.col-12 {
+  float: left;
+  width: calc(12 / 12 * 100%);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list .list-item {
+  padding: 5px;
+}
+
+.list .list-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.icon {
+  background: #000;
+  padding: 3px 1px 0px 1px;
+  width: 16px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 3px;
+  transition: ease all 0.3s;
+}
+.sub-heading {
+  background: black;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  margin: 0px 0 2px 0;
+  padding: 0 4px;
+  width: max-content;
+}
+
+progress[value] {
+  /* width: 250px; */
+  display: block;
+  -webkit-appearance: none !important;
+  appearance: none;
+  border: none;
+  animation: bar-expand 2s ease-in 0.5s 1 normal;
+  animation-fill-mode: both;
+}
+
+progress {
+  background-color: #000;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pb-2 {
+  padding-bottom: 4px;
+}
